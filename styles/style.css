@@ -1,0 +1,85 @@
+@import url("https://fonts.googleapis.com/css2?family=Maven+Pro:wght@500&family=Poppins:ital,wght@0,100;0,200;0,300;1,300&family=Roboto:wght@300;400;500&display=swap");
+* {
+  font-family: "Poppins";
+}
+
+.navbar {
+  background: linear-gradient(110deg, rgb(140, 140, 190) 10%, rgb(188, 61, 99) 75%);
+}
+.navbar-brand {
+  font-family: "Roboto";
+}
+.navbar-nav a {
+  color: white;
+}
+.navbar .dropdown-item {
+  color: black;
+}
+
+.carousel img {
+  height: 300px;
+  width: 450px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.carousel-caption {
+  color: black !important;
+  font-weight: bolder !important;
+  background-color: rgba(101, 216, 214, 0.446);
+}
+
+.card:hover {
+  box-shadow: 2px 2px 15px rgb(193, 193, 208);
+}
+
+.login div:nth-child(2) {
+  background-color: rgba(34, 78, 188, 0.851);
+  border-radius: 5px;
+}
+
+.blog .card-title {
+  font-weight: 700;
+  font-family: "Kumbh Sans" !important;
+  font-size: 36px;
+  color: #27296d;
+}
+
+.blog .card:hover {
+  transform: scale(1);
+  box-shadow: 2px 2px 9px rgb(226, 216, 216);
+  transition: ease 0.7s;
+}
+
+.right-slide:hover {
+  border-top: 2px solid rgba(112, 138, 232, 0.6352941176) !important;
+  transition: ease 0.7s;
+}
+
+.effect1 {
+  box-shadow: 3px 3px 9px rgb(219, 211, 211);
+}
+
+.effect1:hover {
+  transform: translate(3px, -2px);
+  transition: ease 0.7s;
+}
+.effect1:hover img {
+  transition: ease 0.7s;
+  transform: translateY(-5px);
+}
+.effect1:hover .card-body p:nth-child(1) {
+  transition: ease 0.7s;
+  color: green;
+  font-weight: 700;
+}
+
+.register {
+  background: linear-gradient(120deg, rgba(0, 0, 0, 0.5) 30%, black 55%), url("https://images.unsplash.com/photo-1578070181910-f1e514afdd08?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8Ymx1ZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=1000&q=60");
+  background-size: 70%;
+}
+.register div:first-child {
+  padding: 20px;
+  background-color: rgba(34, 78, 188, 0.851);
+  color: white;
+  border-radius: 20px 0 0 20px;
+}/*# sourceMappingURL=style.css.map */

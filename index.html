@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Landing Page</title>
+  <link rel="stylesheet" href="styles/style.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+</head>
+
+<body>
+  <!-- NAVBAR -->
+  <nav class="navbar navbar-expand-lg bg-body-tertiary sticky-top">
+    <div class="container-fluid">
+      <a href="#"><img src="/logo.png" height="40px"></a>
+      <a class="navbar-brand text-white" href="#">AeroTech</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+        aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav justify-content-end flex-grow-1">
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/blog.html">Blog</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/contact.html">Contact Us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/about-us.html">About Us</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Join Us
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="/login.html">Sign In</a></li>
+              <li><a class="dropdown-item" href="/registration.html">Sign Up</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- BANNER -->
+  <div class="banner my-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 col-12">
+          <span class="text-primary fw-bold">HAVACILIK EĞİTİMLERİ</span>
+          <h1 class="display-4 fw-semibold">Sivil Havacılıkta ilerlemenin en kolay yolu!</h1>
+          <p>Her biri 15+ yılı aşkın tecrübeli Uzman ekibimizle bireylerin ve şirketlerin gelişimine katkı sunuyoruz</p>
+          <button class="btn bg-primary-subtle fw-bold">Eğitimlerimiz</button>
+        </div>
+        <div class="col-md-6 col-12 mt-5">
+
+          <div id="carouselExampleCaptions" class="carousel slide">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="/Hurkus (2).jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Initial Airworthiness</h5>
+                  <p>Part-21, DOA, POA, Type Certification, etc.</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="/Aviation father-son.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Continuing Airworthiness</h5>
+                  <p>Part-M, Part-145, Part-66, and Part-147</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="/Child aviation.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Quality & Safety Systems</h5>
+                  <p>ISO 9001, AS9100, SMS</p>
+                </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+              data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+              data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- STATISTICS -->
+
+  <div class="rate bg-primary mx-4 py-4 rounded-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-3 d-flex flex-column align-items-center">
+          <img src="https://www.svgrepo.com/show/323438/teacher.svg" width="64" alt="">
+          <p class="text-light fw-bolder fs-1">14</p>
+          <span class="fw-bold fs-5 text-white">Eğitmenler</span>
+        </div>
+        <div class="col-3 d-flex flex-column align-items-center">
+          <img src="https://www.svgrepo.com/show/509344/documents.svg" width="64" alt="">
+          <p class="text-light fw-bolder fs-1">68</p>
+          <span class="fw-bold fs-5 text-white">Toplam Kurs</span>
+        </div>
+        <div class="col-3 d-flex flex-column align-items-center">
+          <img src="https://www.svgrepo.com/show/488878/company.svg" width="64" alt="">
+          <p class="text-light fw-bolder fs-1">7</p>
+          <span class="fw-bold fs-5 text-white">Şirketler</span>
+        </div>
+        <div class="col-3 d-flex flex-column align-items-center">
+          <img src="https://www.svgrepo.com/show/483947/achievement-1.svg" width="64" alt="">
+          <p class="text-light fw-bolder fs-1">25</p>
+          <span class="fw-bold fs-5 text-white">Bitirilen Projeler</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="blog py-5">
+    <div class="blog-title text-center mb-5">
+      <p class="text-success fw-bold">Blog Haberleri</p>
+      <h2 class="fw-bolder">Son Çıkanlar</h2>
+      <span>Sivil Havacılıkta son gelişmeler</span>
+    </div>
+
+    <div class="container">
+      <div class="row d-flex align-items-center">
+        <div class="col my-3">
+          <div class="card" style="width: 18rem;">
+            <img src="/blog2.jpg" class="card-img-top" alt="...">
+            <div class="card-body bg-primary-subtle">
+              <h5 class="card-title">7 Dec 1945</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+                content.</p>
+              <a href="#" class="btn btn-primary">Devamı için ...</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col my-3">
+          <div class="card" style="width: 18rem;">
+            <img src="/blog1.jpg" class="card-img-top" alt="...">
+            <div class="card-body bg-primary-subtle">
+              <h5 class="card-title">EASA Part-21</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+                content.</p>
+              <a href="#" class="btn btn-primary">Devamı için ...</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col my-3">
+          <div class="card" style="width: 18rem;">
+            <img src="/blog3.jpg" class="card-img-top" alt="...">
+            <div class="card-body bg-primary-subtle">
+              <h5 class="card-title">Airworthiness?</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+                content.</p>
+              <a href="#" class="btn btn-primary">Devamı için ...</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col my-3">
+          <div class="card" style="width: 18rem;">
+            <img src="/blog3.jpg" class="card-img-top" alt="...">
+            <div class="card-body bg-primary-subtle">
+              <h5 class="card-title">Maintenance</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+                content.</p>
+              <a href="#" class="btn btn-primary">Devamı için ...</a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+<!-- Footer Section -->
+
+<footer class="bg-dark">
+<div class="container">
+  <div class="row row-cols-1 row-cols-sm-2 row-cols-md-5 py-5 border-top">
+    <div class="col mb-3">
+      <a href="/" class="d-flex align-items-center mb-3 link-body-emphasis text-decoration-none">
+        <img src="/logo.png" width="70px"  alt="">
+      </a>
+      <p class="text-body-secondary">© 2023</p>
+    </div>
+
+    <div class="col mb-3">
+
+    </div>
+
+    <div class="col mb-3 text-white">
+      <h5>About Us</h5>
+      <ul class="nav flex-column">
+        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">Tel:</a></li>
+        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">E-mail:</a></li>
+        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">Address:</a></li>
+        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">Bizi takip edin</a></li>
+        
+      </ul>
+    </div>
+
+    <div class="col mb-3 text-white">
+      <h5>Eğitimlerimiz</h5>
+      <ul class="nav flex-column">
+        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">Part-21</a></li>
+        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">Quality Systems</a></li>
+        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">Safety Trainings</a></li>
+        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">Continuing Airworthiness</a></li>
+        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">Tailored Trainings</a></li>
+      </ul>
+    </div>
+
+    <div class="col mb-3 text-white">
+      <h5>Blog</h5>
+      <ul class="nav flex-column">
+        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">Home</a></li>
+        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">Features</a></li>
+        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">Pricing</a></li>
+        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">FAQs</a></li>
+        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">About</a></li>
+      </ul>
+    </div>
+  </div>
+</div>
+</footer>
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
